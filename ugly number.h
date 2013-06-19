@@ -75,7 +75,7 @@ public:
     int parsingExp(string ex){
         stringstream ss(ex);
         char op;
-        int i,j, res;
+        int j, res;
         ss >> res;
         while ( !ss.eof() ){
             ss >> op;
