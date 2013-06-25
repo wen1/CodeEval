@@ -107,8 +107,9 @@ public:
     /* data structure */
     deque<int> path;
     deque<int> smallestPath;
-    double smallestDist;
     double currPathDist;
+    double smallestDist;
+    
     
     /* find the path */
     void nearestPath(){
