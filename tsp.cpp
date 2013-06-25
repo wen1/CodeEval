@@ -156,6 +156,7 @@ public:
         }
         
     }
+    /*print the deque*/
     void printSeq(deque<int> q){
         int static n = 0;
         n++;
